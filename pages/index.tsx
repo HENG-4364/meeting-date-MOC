@@ -13,16 +13,28 @@ export default function Home() {
       </Head>
       <div className="container-fluid">
         <div className="row" style={{ height: '100vh' }}>
-          <div className="col-md-2 ">
+          <div className="col-md-2 d-none d-md-block">
             <div className="logo">
               <img src="/logo.jpg" alt="" />
             </div>
           </div>
 
-          <div className="col-md-8  bg-light ">
-            <div className="title">
-              <h2>កាលវិភាគកិច្ចប្រជុំ</h2>
-              <p className='fs-5 fw-bold'>ថ្ងៃ ច័ន្ទ ទី០៦ ខែ កុម្ភៈ ឆ្នាំ​ ២០២៣</p>
+          <div className="col-sm-12 col-md-8  bg-light ">
+            <div className="title d-flex flex-column flex-xl-row">
+              <h2 className='fs-1 '>កាលវិភាគកិច្ចប្រជុំ</h2>
+              <p className="fs-5  fw-bold">
+                ថ្ងៃ ច័ន្ទ ទី០៦ ខែ កុម្ភៈ ឆ្នាំ​ ២០២៣
+              </p>
+            </div>
+
+            <div className='d-md-none d-block'>
+              <div className="profile  d-flex flex justify-content-center">
+                <img src="/profile.jpg" alt="" className="shadow-lg" />
+              </div>
+              <div className="p-4">
+                <h3 className="text-center">Mr.Sok Dara</h3>
+                <p className="text-center">Web Developer</p>
+              </div>
             </div>
 
             <div className="schedule overflow-hidden">
@@ -146,7 +158,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 d-none d-md-block">
             <div className="profile ">
               <img src="/profile.jpg" alt="" className="shadow-lg" />
             </div>
