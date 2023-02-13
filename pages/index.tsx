@@ -20,9 +20,9 @@ export default function Home() {
           </div>
 
           <div className="col-sm-12 col-md-8  bg-light ">
-            <div className="title d-flex flex-column flex-xl-row">
-              <h2 className='fs-1 '>កាលវិភាគកិច្ចប្រជុំ</h2>
-              <p className="fs-5  fw-bold">
+            <div className="title d-flex flex-column flex-xl-row m-3 mt-5">
+              <h2 className=''>កាលវិភាគកិច្ចប្រជុំ</h2>
+              <p className=" fw-bold">
                 ថ្ងៃ ច័ន្ទ ទី០៦ ខែ កុម្ភៈ ឆ្នាំ​ ២០២៣
               </p>
             </div>
@@ -45,25 +45,25 @@ export default function Home() {
                 </div>
               </div>
               <div className="d-flex w-fluid align-items-center py-1">
-                <div>08:00</div>
+                <div>09:00</div>
                 <div
                   className="ms-4 w-100 rounded"
                   style={{ background: '#DDDDDD' }}
                 >
-                  <div className="d-flex justify-content-between p-2">
+                  <div className="d-flex flex-column-reverse flex-sm-row  justify-content-between p-2">
                     <div className="d-flex">
                       <div
-                        className="align-self-center p-2 rounded me-3"
+                        className="align-self-center px-2 py-1 rounded me-3"
                         style={{ background: '#EEEEEE' }}
                       >
-                        <SlScreenDesktop size={25} />
+                        <SlScreenDesktop size={15} />
                       </div>
                       <div>
-                        <h5 className="m-0">Enlish Lesson</h5>
+                        <h6 className="m-0">Enlish Lesson</h6>
                         <p className="m-0">8:30-9:00</p>
                       </div>
                     </div>
-                    <div className="align-self-center fs-4 fw-bold me-4">
+                    <div className="align-self-center fs-5 fw-bold me-sm-4">
                       Angkor Wet
                     </div>
                   </div>
@@ -81,20 +81,20 @@ export default function Home() {
                   className="ms-4 w-100 rounded"
                   style={{ background: '#AEE2FF' }}
                 >
-                  <div className="d-flex justify-content-between p-2">
+                  <div className="d-flex flex-column-reverse flex-sm-row  justify-content-between p-2">
                     <div className="d-flex">
                       <div
-                        className="align-self-center p-2 rounded me-3"
+                        className="align-self-center px-2 py-1 rounded me-3"
                         style={{ background: '#85CDFD' }}
                       >
-                        <SlScreenDesktop size={25} />
+                        <SlScreenDesktop size={15} />
                       </div>
                       <div>
-                        <h5 className="m-0">Enlish Lesson</h5>
+                        <h6 className="m-0">Enlish Lesson</h6>
                         <p className="m-0">8:30-9:00</p>
                       </div>
                     </div>
-                    <div className="align-self-center fs-4 fw-bold me-4">
+                    <div className="align-self-center fs-5 fw-bold me-sm-4">
                       Angkor Wet
                     </div>
                   </div>
@@ -106,20 +106,20 @@ export default function Home() {
                   className="ms-4 w-100 rounded"
                   style={{ background: '#F2DEBA' }}
                 >
-                  <div className="d-flex justify-content-between p-2">
+                  <div className="d-flex flex-column-reverse flex-sm-row  justify-content-between p-2">
                     <div className="d-flex">
                       <div
-                        className="align-self-center p-2 rounded me-3"
+                        className="align-self-center px-2 py-1 rounded me-3"
                         style={{ background: '#FFD56F' }}
                       >
-                        <SlScreenDesktop size={25} />
+                        <SlScreenDesktop size={15} />
                       </div>
                       <div>
-                        <h5 className="m-0">Enlish Lesson</h5>
+                        <h6 className="m-0">Enlish Lesson</h6>
                         <p className="m-0">8:30-9:00</p>
                       </div>
                     </div>
-                    <div className="align-self-center fs-4 fw-bold me-4">
+                    <div className="align-self-center fs-5 fw-bold me-sm-4">
                       Angkor Wet
                     </div>
                   </div>
@@ -132,25 +132,25 @@ export default function Home() {
                 </div>
               </div>
               <div className="d-flex w-fluid align-items-center py-1">
-                <div>08:00</div>
+                <div>09:00</div>
                 <div
                   className="ms-4 w-100 rounded"
                   style={{ background: '#DDDDDD' }}
                 >
-                  <div className="d-flex justify-content-between p-2">
+                  <div className="d-flex flex-column-reverse flex-sm-row  justify-content-between p-2">
                     <div className="d-flex">
                       <div
-                        className="align-self-center p-2 rounded me-3"
+                        className="align-self-center px-2 py-1 rounded me-3"
                         style={{ background: '#EEEEEE' }}
                       >
-                        <SlScreenDesktop size={25} />
+                        <SlScreenDesktop size={15} />
                       </div>
-                      <div>
-                        <h5 className="m-0">Enlish Lesson</h5>
+                      <div className=''>
+                        <h6 className="m-0">Enlish Lesson</h6>
                         <p className="m-0">8:30-9:00</p>
                       </div>
                     </div>
-                    <div className="align-self-center fs-4 fw-bold me-4">
+                    <div className="align-self-center  fw-bold me-sm-4">
                       Angkor Wet
                     </div>
                   </div>

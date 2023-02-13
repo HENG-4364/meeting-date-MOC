@@ -9,14 +9,15 @@
 }
 .title {
   margin-top: 5rem;
-  margin: 3rem;
   display: flex;
   justify-content: space-between;
   h2 {
     font-family: 'Moul', cursive;
+    font-size: 30px;
   }
   p {
     font-family: 'Noto Serif Khmer', serif;
+    font-size: 20px;
   }
 }
 .schedule {
